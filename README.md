@@ -13,6 +13,7 @@
   - `helpers/`: ملفات مساعدة (الماركات، التصنيفات).
 - `output/`: المجلد المخصص للملفات المصدرة (النتائج).
 - `requirements.txt`: ملف المكتبات المطلوبة لتشغيل المشروع.
+- `.streamlit/config.toml`: ملف إعدادات Streamlit.
 
 ## 🚀 التشغيل المحلي
 
@@ -25,6 +26,10 @@
    ```bash
    streamlit run mahwous_app.py
    ```
+
+## ☁️ النشر على Streamlit Cloud
+
+للنشر على Streamlit Cloud، تأكد من أن المستودع عام (Public) وأن ملف `requirements.txt` و `mahwous_app.py` موجودان في الجذر. سيتعرف Streamlit Cloud تلقائياً على التطبيق ويقوم بنشره.
 
 ## 🛠️ التقنيات المستخدمة
 - **Streamlit**: لواجهة المستخدم التفاعلية.
