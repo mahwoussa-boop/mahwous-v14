@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project Specific
+output/
+data/our_store/*.csv
+data/competitors/*.csv
+data/helpers/*.csv
+!data/helpers/.gitkeep
+!data/our_store/.gitkeep
+!data/competitors/.gitkeep
